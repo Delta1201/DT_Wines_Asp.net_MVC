@@ -1,0 +1,220 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\NC term 6\\communication\\portfolio\\project show\\Test practice - Wine\\DhavalTailor_Wines\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CEAAC68A-5728-45F3-8DB1-510B09BF6AD7}|DhavalTailor_Wines\\DhavalTailor_Wines.csproj|d:\\nc term 6\\communication\\portfolio\\project show\\test practice - wine\\dhavaltailor_wines\\dhavaltailor_wines\\controllers\\winescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEAAC68A-5728-45F3-8DB1-510B09BF6AD7}|DhavalTailor_Wines\\DhavalTailor_Wines.csproj|solutionrelative:dhavaltailor_wines\\controllers\\winescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEAAC68A-5728-45F3-8DB1-510B09BF6AD7}|DhavalTailor_Wines\\DhavalTailor_Wines.csproj|d:\\nc term 6\\communication\\portfolio\\project show\\test practice - wine\\dhavaltailor_wines\\dhavaltailor_wines\\views\\wines\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CEAAC68A-5728-45F3-8DB1-510B09BF6AD7}|DhavalTailor_Wines\\DhavalTailor_Wines.csproj|solutionrelative:dhavaltailor_wines\\views\\wines\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEAAC68A-5728-45F3-8DB1-510B09BF6AD7}|DhavalTailor_Wines\\DhavalTailor_Wines.csproj|d:\\nc term 6\\communication\\portfolio\\project show\\test practice - wine\\dhavaltailor_wines\\dhavaltailor_wines\\views\\wines\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CEAAC68A-5728-45F3-8DB1-510B09BF6AD7}|DhavalTailor_Wines\\DhavalTailor_Wines.csproj|solutionrelative:dhavaltailor_wines\\views\\wines\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEAAC68A-5728-45F3-8DB1-510B09BF6AD7}|DhavalTailor_Wines\\DhavalTailor_Wines.csproj|d:\\nc term 6\\communication\\portfolio\\project show\\test practice - wine\\dhavaltailor_wines\\dhavaltailor_wines\\views\\wine_type\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CEAAC68A-5728-45F3-8DB1-510B09BF6AD7}|DhavalTailor_Wines\\DhavalTailor_Wines.csproj|solutionrelative:dhavaltailor_wines\\views\\wine_type\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEAAC68A-5728-45F3-8DB1-510B09BF6AD7}|DhavalTailor_Wines\\DhavalTailor_Wines.csproj|d:\\nc term 6\\communication\\portfolio\\project show\\test practice - wine\\dhavaltailor_wines\\dhavaltailor_wines\\data\\_commands.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{CEAAC68A-5728-45F3-8DB1-510B09BF6AD7}|DhavalTailor_Wines\\DhavalTailor_Wines.csproj|solutionrelative:dhavaltailor_wines\\data\\_commands.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 65,
+          "SelectedChildIndex": 22,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1239530085:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1455208826:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1440401731:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:568009610:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1458598283:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:541758995:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1654303753:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:846680960:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1585404793:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1374597964:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1603113644:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:217986375:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:789549124:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1168798705:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1874716670:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1289374068:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:225939551:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2006893:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:671438407:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\NC term 6\\communication\\portfolio\\project show\\Test practice - Wine\\DhavalTailor_Wines\\DhavalTailor_Wines\\Views\\Wines\\Index.cshtml",
+              "RelativeDocumentMoniker": "DhavalTailor_Wines\\Views\\Wines\\Index.cshtml",
+              "ToolTip": "D:\\NC term 6\\communication\\portfolio\\project show\\Test practice - Wine\\DhavalTailor_Wines\\DhavalTailor_Wines\\Views\\Wines\\Index.cshtml",
+              "RelativeToolTip": "DhavalTailor_Wines\\Views\\Wines\\Index.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABkAAACIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-21T18:52:23.078Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WinesController.cs",
+              "DocumentMoniker": "D:\\NC term 6\\communication\\portfolio\\project show\\Test practice - Wine\\DhavalTailor_Wines\\DhavalTailor_Wines\\Controllers\\WinesController.cs",
+              "RelativeDocumentMoniker": "DhavalTailor_Wines\\Controllers\\WinesController.cs",
+              "ToolTip": "D:\\NC term 6\\communication\\portfolio\\project show\\Test practice - Wine\\DhavalTailor_Wines\\DhavalTailor_Wines\\Controllers\\WinesController.cs",
+              "RelativeToolTip": "DhavalTailor_Wines\\Controllers\\WinesController.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAowDcAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T18:52:23.205Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\NC term 6\\communication\\portfolio\\project show\\Test practice - Wine\\DhavalTailor_Wines\\DhavalTailor_Wines\\Views\\Wines\\Edit.cshtml",
+              "RelativeDocumentMoniker": "DhavalTailor_Wines\\Views\\Wines\\Edit.cshtml",
+              "ToolTip": "D:\\NC term 6\\communication\\portfolio\\project show\\Test practice - Wine\\DhavalTailor_Wines\\DhavalTailor_Wines\\Views\\Wines\\Edit.cshtml",
+              "RelativeToolTip": "DhavalTailor_Wines\\Views\\Wines\\Edit.cshtml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-21T18:52:23.207Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\NC term 6\\communication\\portfolio\\project show\\Test practice - Wine\\DhavalTailor_Wines\\DhavalTailor_Wines\\Views\\Wine_Type\\Create.cshtml",
+              "RelativeDocumentMoniker": "DhavalTailor_Wines\\Views\\Wine_Type\\Create.cshtml",
+              "ToolTip": "D:\\NC term 6\\communication\\portfolio\\project show\\Test practice - Wine\\DhavalTailor_Wines\\DhavalTailor_Wines\\Views\\Wine_Type\\Create.cshtml",
+              "RelativeToolTip": "DhavalTailor_Wines\\Views\\Wine_Type\\Create.cshtml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-21T18:52:23.282Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_commands.txt",
+              "DocumentMoniker": "D:\\NC term 6\\communication\\portfolio\\project show\\Test practice - Wine\\DhavalTailor_Wines\\DhavalTailor_Wines\\Data\\_commands.txt",
+              "RelativeDocumentMoniker": "DhavalTailor_Wines\\Data\\_commands.txt",
+              "ToolTip": "D:\\NC term 6\\communication\\portfolio\\project show\\Test practice - Wine\\DhavalTailor_Wines\\DhavalTailor_Wines\\Data\\_commands.txt",
+              "RelativeToolTip": "DhavalTailor_Wines\\Data\\_commands.txt",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-11-21T18:52:23.29Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 35,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 137,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1106248170:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2059162365:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

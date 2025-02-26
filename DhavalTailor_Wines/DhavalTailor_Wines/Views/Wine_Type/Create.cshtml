@@ -1,0 +1,33 @@
+﻿@model DhavalTailor_Wines.Models.Wine_Type
+
+@{
+    ViewData["Title"] = "Add new Wine Type";
+}
+
+<h1>Add new Wine Type</h1>
+
+<h4>Wine_Type</h4>
+<div asp-validation-summary="ModelOnly" class="text-danger"></div>
+<hr />
+<form asp-action="Create">
+    
+    <div class="row">
+        <div class="col-md-4">
+            <div class="form-group">
+                <label asp-for="WineTypeName" class="control-label"></label>
+                <input asp-for="WineTypeName" class="form-control" />
+                <span asp-validation-for="WineTypeName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </div>
+    </div>
+</form>
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

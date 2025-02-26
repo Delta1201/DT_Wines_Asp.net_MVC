@@ -1,0 +1,20 @@
+//Models>ErrorviewModel.cs
+#nullable enable
+
+>Add-Migration -Context WinesContext -OutputDir Data\DWMigrations Initial
+eg>Add-Migration -Context WinesContext Added(SomeProperty)Add-Migration -Context 
+eg>Add-Migration -Context CateringContext AddedNullMealType
+Add-Migration -Context WinesContext AddedWineTypeUnique
+Add-Migration -Context WinesContext AddedAuditable
+
+//UPDATE EVERYTIME
+>Update-Database -Context WinesContext
+
+//default databse
+Add-Migration -Context ApplicationDbContext -OutputDir Data\Migrations Initial
+Update-Database -Context ApplicationDbContext
+
+ 
+
+Add-Migration -Context PAC_Context -o Data\PAC_ContextMigrations Initial
+Update-Database -Context PAC_Context

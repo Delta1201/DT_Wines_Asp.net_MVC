@@ -1,0 +1,104 @@
+﻿@model IEnumerable<DhavalTailor_Wines.Models.Wine>
+
+@{
+    ViewData["Title"] = "Wine List";
+}
+
+<h1>Wine List</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+
+<form asp-action="Index" method="get">
+    <!--code added for getting filter and sorting elements-->
+    <input type="hidden" name="sortDirection" value="@ViewData["sortDirection"]" />
+    <input type="hidden" name="sortField" value="@ViewData["sortField"]" />
+    <div class="form-horizontal">
+        <button font-weight: bolder;" class="btn @(ViewData["Filtering"]) btn_Filter" type="button" data-bs-toggle="collapse" id="filterToggle" data-bs-target="#collapseFilter" aria-expanded="false" aria-controls="collapseFilter">
+            Filter/Search
+        </button>
+        <div class="collapse" id="collapseFilter">
+            <div class="card card-body bg-light">
+                <div class="row">
+                    <div class="form-group col-md-4">
+                        <label class="control-label">Select by Wine:</label>
+                        @Html.DropDownList("wine_TypeID", null, "All Wines", htmlAttributes: new { @class = "form-control" })</> <!---->
+                    </div>
+                    <div class="form-group col-md-4">
+                        <label class="control-label">Search Wine Name:</label>
+                        @Html.TextBox("wineName", null, new { @class = "form-control" })
+                    </div>
+                    <div class="form-group col-md-4 align-self-end">
+                        <input type="submit" name="actionButton" value="Filter" class="btn btn-outline-primary" />
+                        <a asp-action="Index" class="btn btn-outline-dark">Clear</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<table class="table">
+        
+
+    <thead>
+        <tr>
+            <th>
+                <!--Wine Name-->
+                    <input type="submit" name="actionButton" value="Wine Name" class="btn" />
+            </th>
+            <th>
+                    <!--Wine Year-->
+                    <input type="submit" name="actionButton" value="Wine Year" class="btn" />
+            </th>
+            <th>
+                    <!--Wine Price-->
+                    <input type="submit" name="actionButton" value="Wine Price" class="btn" />
+            </th>
+            <th>
+                    <!--Wine Harvest, html is here as this is not being sort for-->
+                    @Html.DisplayNameFor(model => model.WineHarvest)
+            </th>
+            <th>
+                    <!--Wine Type-->
+                    <input type="submit" name="actionButton" value="Wine Type" class="btn" />
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.WineName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.WineYear)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.WinePrice)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.WineHarvest)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Wine_Type.WineTypeName)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.ID">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.ID">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.ID">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+</form>
+@section Scripts {
+    <script type="text/javascript">
+        var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+        var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+            return new bootstrap.Tooltip(tooltipTriggerEl)
+        })
+    </script>
+}

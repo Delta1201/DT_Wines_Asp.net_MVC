@@ -1,0 +1,54 @@
+﻿@model DhavalTailor_Wines.Models.Wine
+
+@{
+    ViewData["Title"] = "Edit Wine Details";
+}
+
+<h1>Edit Wine Details</h1>
+
+<h4>Wine</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="ID" />
+            <div class="form-group">
+                <label asp-for="WineName" class="control-label"></label>
+                <input asp-for="WineName" class="form-control" />
+                <span asp-validation-for="WineName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="WineYear" class="control-label"></label>
+                <input asp-for="WineYear" class="form-control" />
+                <span asp-validation-for="WineYear" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="WinePrice" class="control-label"></label>
+                <input asp-for="WinePrice" class="form-control" />
+                <span asp-validation-for="WinePrice" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="WineHarvest" class="control-label"></label>
+                <input asp-for="WineHarvest" class="form-control" />
+                <span asp-validation-for="WineHarvest" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Wine_TypeID" class="control-label"></label>
+                <select asp-for="Wine_TypeID" class="form-control" asp-items="ViewBag.Wine_TypeID"></select>
+                <span asp-validation-for="Wine_TypeID" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

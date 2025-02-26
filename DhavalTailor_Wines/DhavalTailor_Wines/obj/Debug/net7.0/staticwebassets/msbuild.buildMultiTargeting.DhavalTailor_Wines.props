@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\DhavalTailor_Wines.props" />
+</Project>
